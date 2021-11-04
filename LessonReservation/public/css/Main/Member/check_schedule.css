@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(228, 231, 28, 0.541);
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    color: rgba(31, 31, 31, 0.884);
+}
+
+#tittle-wrapp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#logo-box{
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+#text{
+    padding-top: 30px;
+    text-align: center;
+}
+#box{
+    width: 100px;
+    height: 100px;
+}
+
+/* フォーム */
+
+#main-wrapp{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+
+
+
+#table{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(224, 240, 255);
+}
+
+.tr{
+    border: solid ;
+    
+}
+
+.th1,.th2,.td1,.td2{
+    border: solid;
+    text-align: center;
+    height: 50px;
+    padding: 10px 0 ;
+}
+.th1,.td1{
+    width: 80%;
+}
+
+.th1{
+    font-size: large;
+}
+
+
+#link-box{
+    color: blue;
+    text-decoration:underline;
+    font-size: small;
+}
+
+#reverse{
+    text-align: center;
+    color: blue;
+    text-decoration:underline;
+    padding: 50px 0;
+}
+
+
+/* メディアクエリ  */
+
+@media screen and (max-width:860px){
+    #main-wrapp{
+        width: 100%;
+    }
+
+    #link-box{
+        font-size: x-small;
+    }
+}
+@media screen and (max-width:480px){
+
+	#text{
+		font-size: 10px;
+	}
+
+    .text-box{
+        height: 30px;
+        font-size: x-small;
+    }
+
+    #main-box{
+        padding: 0 20px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+}

@@ -1,0 +1,96 @@
+
+body{
+    background-color: rgba(228, 231, 28, 0.541);
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    color: rgba(31, 31, 31, 0.884);
+}
+#tittle-wrapp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#logo-box{
+    width: 100px;
+    height: 100px;
+
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+#text{
+    padding-top: 30px;
+    text-align: center;
+}
+#box{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* フォーム */
+
+#main-wrapp{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+
+#main-box{
+    width: 75%;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #5f5f5f;
+}
+
+#comp-text{
+    text-align:justify;
+    font-size: large;
+}
+
+#link{
+    color: blue;
+    text-align: center;
+    font-size: large;
+    padding: 50px 0;
+    text-decoration:underline;
+}
+
+
+
+
+
+/* メディアクエリ  */
+@media screen and (max-width:480px){
+
+    #main-wrapp{
+        height: 300px;
+    }
+
+    #main-box{
+        padding: 40px 20px 10px 20px;
+    }
+	#text{
+		font-size: 10px;
+	}
+
+    #comp-text,#link{
+        font-size:x-small;
+    }
+
+    
+}
